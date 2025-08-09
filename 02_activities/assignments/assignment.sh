@@ -50,3 +50,13 @@ find data/processed -type f > data/inventory.txt
 ###########################################
 
 echo "Project setup is complete!"
+
+
+
+
+git add assignment.sh
+git commit
+git status                   # check that your working directory is clean (all changes committed)
+git push origin assignment   # push your changes
+
+
