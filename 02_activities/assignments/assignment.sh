@@ -56,3 +56,5 @@ git add assignment.sh
 git commit
 git status                   # check that your working directory is clean (all changes committed)
 git push origin assignment   # push your changes
+
+git pull https://github.com/UofT-DSI/shell coworker-changes --no-rebase
